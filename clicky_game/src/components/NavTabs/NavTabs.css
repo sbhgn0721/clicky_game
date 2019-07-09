@@ -1,0 +1,25 @@
+.navbar {
+    background-color: #352066;
+   
+}
+
+
+.navbar li{
+    display: inline-block;
+    color: white;
+    padding-top: 2%;
+    
+   
+}
+
+
+#result {
+    padding-left: 250px;
+    
+    
+}
+
+#score {
+    padding-left: 230px;
+    
+}

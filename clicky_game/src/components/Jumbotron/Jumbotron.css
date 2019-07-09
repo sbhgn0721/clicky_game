@@ -1,0 +1,17 @@
+.jumbotron {
+    height: 400px;
+    text-align: center;
+    background-image: url("../../images/jumbotron-background.png");
+    color: white;
+}
+
+#title {
+    padding-top: 100px;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+#description {
+    font-size: 25px;
+    font-weight: bold;
+}

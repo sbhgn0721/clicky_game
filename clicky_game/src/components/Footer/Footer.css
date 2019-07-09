@@ -1,0 +1,26 @@
+#footer-card {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  height: 100px;
+  margin-left: 0px;
+  
+}
+
+#footer-body {
+  background-color: #9e67f0;
+  
+}
+
+#footer {
+  background-color:  #352066;
+  font-weight: bold;
+  height: 40px;
+  padding-top: 7px;
+}
+
+#react-logo {
+  color: #4287f5;
+}
