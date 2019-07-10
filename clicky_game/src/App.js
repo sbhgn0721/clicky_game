@@ -5,15 +5,29 @@ import Footer from "./components/Footer/Footer";
 import Jumbotron from "./components/Jumbotron/Jumbotron";
 import FriendCard from "./components/FriendCard/FriendCard";
 import Wrapper from "./components/Wrapper/Wrapper";
+import friends from "./friends.json";
 
- function App () {
-   return (
+
+class App extends React.Component {
+  state = {
+    friends: friends
+  }
+
+
+
+render () {
+return (
      <div>
     <NavTabs />
     <Jumbotron />
     <Wrapper>
-    
-    <FriendCard />
+    {this.state.friends.map(friend => (
+    <FriendCard 
+    image = {friend.image}
+    />
+
+
+    ))}
 
     </Wrapper>
    
@@ -23,5 +37,7 @@ import Wrapper from "./components/Wrapper/Wrapper";
     </div>
    )
  }
+
+}
 
 export default App;

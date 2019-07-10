@@ -5,7 +5,7 @@ function FriendCard(props) {
     return (
         <div className="card">
             <div className="img-container">
-                <img src={props.image} alt={props.image} />
+                <img src={ require("../../images/" + props.image) } alt={props.image.replace(".jpg", "")} />
 
             </div>
         </div>

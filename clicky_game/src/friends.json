@@ -1,0 +1,63 @@
+[
+    {
+      "id": 1,
+      "name": "SpongeBob",
+      "image": "SpongeBob.png"
+    },
+    {
+      "id": 2,
+      "name": "Mr. Krabs",
+      "image": "Mr._Krabs.png"
+    },
+    {
+      "id": 3,
+      "name": "Squidward",
+      "image": "Squidward.png"
+    },
+    {
+      "id": 4,
+      "name": "Dexter",
+      "image": "Dexter.png"
+    },
+    {
+      "id": 5,
+      "name": "Courage",
+      "image": "Courage.png"
+    },
+    {
+      "id": 6,
+      "name": "Doug Funnie",
+      "image": "Doug_Funnie.png"
+    },
+    {
+      "id": 7,
+      "name": "Bugs Bunny",
+      "image": "Bugs_Bunny.png"
+    },
+    {
+      "id": 8,
+      "name": "Johnny Bravo",
+      "image": "Johnny_Bravo.png"
+    },
+    {
+      "id": 9,
+      "name": "Tommy Pickles",
+      "image": "Tommy_Pickles.png"
+    },
+    {
+      "id": 10,
+      "name": "Rocko",
+      "image": "Rockos.png"
+    },
+    {
+      "id": 11,
+      "name": "Captain Planet",
+      "image": "Captain_Planet.png"
+    },
+    {
+      "id": 12,
+      "name": "Ickis",
+      "image": "ickis.png"
+    }
+  ]
+  
