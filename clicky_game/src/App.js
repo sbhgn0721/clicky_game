@@ -20,13 +20,68 @@ function shuffleFriends (array) {
 class App extends React.Component {
   state = {
     friends: friends,
+    guessedResult: "",
+    currentScore: 0,
+    topScore: 0,
+    clickedImage: []
+    
 
 
   }
 
 
+  //handle image click
+  imageClick = id => {
+    //if the image id cannot be found in the clickedImage array, which means the image has not been clicked before, then the socre increase by 1
+    if (this.state.clickedImage.indexOf(id) === -1) {
+      this.scoreIncrement();
+      this.setState({clickedImage: this.state.clickedImage.concat(id)})
+    
+    }
+    //if the image has been clicked before, the game will be reset
+    else {
+      this.gameReset();
+    }
 
-imageClick =  () => {
+  }
+
+  //define the function scoreIncrement
+  scoreIncrement = () => {
+    const newScore = this.state.currentScore + 1;
+    this.setState ({
+      currentScore: newScore,
+      guessedResult: "You guessed correctly!"
+    });
+    //update topScore
+    if (newScore >= this.state.topScore ) {
+      this.setState ({topScore: newScore})
+    }
+    if (newScore === 12) {
+      this.setState ({ guessedResult: "You Win!!!"}, function (){
+        if(!alert("You win, game will be restart")){
+          this.setState({currentScore:0, clickedImage:[]})
+        }
+      })
+    }
+    
+      this.shuffleImages()
+    
+  }
+
+  //define the function 
+  gameReset = () => {
+    this.setState({
+      currentScore: 0,
+      topScore: this.state.topScore,
+      guessedResult: "You Lost!!!",
+      clickedImage: []
+    });
+    this.shuffleImages()
+  }
+
+
+//define function shuffleImages
+shuffleImages =  () => {
   let shuffledFriends = shuffleFriends(friends);
   this.setState({friends: shuffledFriends})
 }
@@ -34,13 +89,23 @@ imageClick =  () => {
 render () {
 return (
      <div>
-    <NavTabs />
+    <NavTabs 
+     currentScore = {this.state.currentScore}
+     topScore = {this.state.topScore}
+     guessedResult = {this.state.guessedResult}
+
+     />
     <Jumbotron />
     <Wrapper>
     {this.state.friends.map(friend => (
     <FriendCard 
     imageClick ={this.imageClick}
+    scoreIncrement = {this.scoreIncrement}
+    gameReset = {this.gameReset}
+    shuffleImages = {this.shuffleImages}
     image = {friend.image}
+    key={friend.id}
+    id={friend.id}
     />
 
 
