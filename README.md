@@ -1,4 +1,4 @@
-# clicky_game 
+# clicky_game https://sbhgn0721.github.io/clicky_game/
 
 ## Overview
 

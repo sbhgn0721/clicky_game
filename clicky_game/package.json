@@ -2,7 +2,7 @@
   "name": "clicky_game",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sbhgn0721.github.io/clicky_game/",
+  "homepage": "https://sbhgn0721.github.io/clicky_game",
   "dependencies": {
     "bootstrap": "^4.3.1",
     "react": "^16.8.6",
