@@ -7,7 +7,7 @@ const Footer = () => (
 
         </div>
         <div className="card-footer" id="footer">
-            <p>Clicky Game <i class="fab fa-react" id="react-logo"></i></p>
+            <p>Clicky Game <i className="fab fa-react" id="react-logo"></i></p>
 
         </div>
 
