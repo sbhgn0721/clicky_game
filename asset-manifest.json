@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/clicky_game/static/css/main.374e85a8.chunk.css",
+    "main.js": "/clicky_game/static/js/main.c87defe7.chunk.js",
+    "main.js.map": "/clicky_game/static/js/main.c87defe7.chunk.js.map",
+    "runtime~main.js": "/clicky_game/static/js/runtime~main.33627756.js",
+    "runtime~main.js.map": "/clicky_game/static/js/runtime~main.33627756.js.map",
+    "static/js/2.884c28c3.chunk.js": "/clicky_game/static/js/2.884c28c3.chunk.js",
+    "static/js/2.884c28c3.chunk.js.map": "/clicky_game/static/js/2.884c28c3.chunk.js.map",
+    "index.html": "/clicky_game/index.html",
+    "precache-manifest.f8048355127eb28fda3ae3e03368381b.js": "/clicky_game/precache-manifest.f8048355127eb28fda3ae3e03368381b.js",
+    "service-worker.js": "/clicky_game/service-worker.js",
+    "static/css/main.374e85a8.chunk.css.map": "/clicky_game/static/css/main.374e85a8.chunk.css.map",
+    "static/media/Bugs_Bunny.png": "/clicky_game/static/media/Bugs_Bunny.92686f4c.png",
+    "static/media/Captain_Planet.png": "/clicky_game/static/media/Captain_Planet.c396feaf.png",
+    "static/media/Courage.png": "/clicky_game/static/media/Courage.4bfe4f7f.png",
+    "static/media/Dexter.png": "/clicky_game/static/media/Dexter.9841fb6b.png",
+    "static/media/Doug_Funnie.png": "/clicky_game/static/media/Doug_Funnie.f845edcc.png",
+    "static/media/Johnny_Bravo.png": "/clicky_game/static/media/Johnny_Bravo.d320b495.png",
+    "static/media/Mr._Krabs.png": "/clicky_game/static/media/Mr._Krabs.7bc09bfc.png",
+    "static/media/Rockos.png": "/clicky_game/static/media/Rockos.e8dc09c9.png",
+    "static/media/SpongeBob.png": "/clicky_game/static/media/SpongeBob.1ee2723f.png",
+    "static/media/Squidward.png": "/clicky_game/static/media/Squidward.691be0cf.png",
+    "static/media/Tommy_Pickles.png": "/clicky_game/static/media/Tommy_Pickles.141b3dcd.png",
+    "static/media/ickis.png": "/clicky_game/static/media/ickis.7d61ed40.png",
+    "static/media/jumbotron-background.png": "/clicky_game/static/media/jumbotron-background.b9da2244.png"
+  }
+}
